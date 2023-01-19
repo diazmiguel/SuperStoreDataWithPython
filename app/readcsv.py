@@ -13,5 +13,5 @@ def readCsv(path):
 
 if __name__ == '__main__':
   orders = readCsv('./app/superstore.csv')
-  print(orders[2939])
+  print(orders[2])
 

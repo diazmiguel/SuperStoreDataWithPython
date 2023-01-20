@@ -1,9 +1,10 @@
 import readcsv as readCSV
+import utils as util
 
 def run():
     #Envio del path para la lectura
     orders = readCSV.readCsv('./app/superstore.csv')
-    print(orders[4])
+    
     #Aqui debe ir un menu de opcion
     
 
